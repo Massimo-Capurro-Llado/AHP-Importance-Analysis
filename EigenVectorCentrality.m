@@ -1,22 +1,14 @@
-function[ranking] = EigenVectorCentrality(A,numerosity)
-%Numerosity è la lunghezza del vettore ranking in output
+function[eigen] = EigenVectorCentrality(A)
+    % This function calculates the eigen centrality value for each node of a graph. 
+    % Parameters: A -> The adjacency matrix 
+    % Output: eigen -> A vector with the value for eigen centrality of each node of G
 
-    %Calcolo autovalori ed autovettori di A sfruttando la funzione eig
+    %Calculate eigenvalues and eigenvectors of A and get the eigenvector
+    %corresponding to the maximum eigenvalue
     [eigenvectors,eigenvalues]=eig(A);
-    eigenvalues = sum(eigenvalues');
+    eigen = eigenvectors(:,end);
 
-    %Calcolo l'ID corrispondente al massimo autovalore e ne ricavo
-    %l'autovettore
-    id_max_eigenvalues = find(eigenvalues(1,:)==max(eigenvalues));
-    max_eigenvector = eigenvectors(:,id_max_eigenvalues);
-
-    %Positivizzo ed ordino l'autovettore
-    max_eigenvector = abs(max_eigenvector);
-    sorted_eigenvector = sort(max_eigenvector,"descend");
-
-    %Riporto i nodi secondo il loro valore di EigenVector centrality
-    ranking = [];
-    for j=1:numerosity
-        ranking = [ranking,find(max_eigenvector==sorted_eigenvector(j))];
-    end
+    %Normalize the result
+    eigen = eigen./max(eigen);
+   
 end
