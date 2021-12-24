@@ -37,9 +37,4 @@ ahp= readtable(data_file);
 [definitive_importance] = DefinitiveNodeImportance(degree, D_Weight, eigen, ...
     E_Weight, closeness, C_Weight, pairwise, P_Weight);
 
-% Plot the graph and color the nodes gradually depending on their importance
-h=plot(G);
-hold on
-% Create 3 groups based on importance: reds>=0.9(dimension 25),
-%   oranges<0.9 && >=0.7 (dimension 15),
-%   yellows<0.7 && >=0.55 (dimension 10). Then use highlight to color the plot
+ColoredGraph(G, definitive_importance)
