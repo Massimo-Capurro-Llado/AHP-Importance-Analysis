@@ -11,6 +11,4 @@ ranking = degree.*D_Weight + eigen.*E_Weight + closeness.*C_Weight + pairwise.*P
 % Normalize the ranking
 definitive_importance= ranking./max(ranking);
 
-% Clean the result
-definitive_importance = definitive_importance(:,1);
 end

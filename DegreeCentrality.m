@@ -3,7 +3,7 @@ function[degree] = DegreeCentrality(A)
     % Parameters: A -> The adjacency matrix.
     % Output: degree -> A column vector with the value for degree centrality of each node of G
     
-    degree = sum(A');
+    degree = transpose(sum(A'));
 
     %Normalize the result
     degree = degree./max(degree);

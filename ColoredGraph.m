@@ -7,9 +7,9 @@ function [] = ColoredGraph(G, definitive_importance)
     % Dark red assigned to the nodes of the highest importance for the network, 
     % orange to very important nodes and yellow for nodes of intermidiate importance.
 
-    reds= find(definitive_importance(:,1)>= 0.9);
-    oranges= find(definitive_importance(:,1)>= 0.6 & definitive_importance(:,1)<0.9);
-    yellows= find(definitive_importance(:,1)>= 0.5 & definitive_importance(:,1)<0.6);
+    reds= find(definitive_importance(:,1)>= 0.85);
+    oranges= find(definitive_importance(:,1)>= 0.7 & definitive_importance(:,1)<0.85);
+    yellows= find(definitive_importance(:,1)>= 0.55 & definitive_importance(:,1)<0.7);
     
     % Plot the graph and color the nodes
     h= plot(G);
