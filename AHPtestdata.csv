@@ -1,11 +1,46 @@
-Utente,Categoria1,Categoria2,Domanda,Risposta,D. opzionale,R. opzionale,Note,Timestamp
-m.capurrollado@alcampus.it,Degree Centrality,Closeness Centrality,The Degree Centrality is more important than Closeness Centrality,more important,,,,12/20/2021 16:21
-m.capurrollado@alcampus.it,Degree Centrality,Closeness Centrality,The Degree Centrality is more important than Closeness Centrality,more important,,,,12/22/2021 14:37
-m.capurrollado@alcampus.it,Eigen Centrality,Degree Centrality,The Eigen Centrality is more important than Degree Centrality,more important,,,,12/22/2021 14:37
-m.capurrollado@alcampus.it,Pairwise Connectivity,Degree Centrality,The Pairwise Connectivity is much more important than Degree Centrality,much more important,,,,12/22/2021 14:37
-m.capurrollado@alcampus.it,Pairwise Connectivity,Eigen Centrality,The Pairwise Connectivity is more important than Eigen Centrality,more important,,,,12/22/2021 14:37
-m.capurrollado@alcampus.it,Pairwise Connectivity,Closeness Centrality,The Pairwise Connectivity is much more important than Closeness Centrality,much more important,,,,12/22/2021 14:37
-carpyfra@hotmail.it,Eigen Centrality,Degree Centrality,The Eigen Centrality is more important than Degree Centrality,more important,,,,12/22/2021 17:38
-carpyfra@hotmail.it,Eigen Centrality,Degree Centrality,The Eigen Centrality is much more important than Degree Centrality,much more important,,,,12/22/2021 17:39
-carpyfra@hotmail.it,Eigen Centrality,Closeness Centrality,The Eigen Centrality is more important than Closeness Centrality,more important,,,,12/22/2021 17:39
-carpyfra@hotmail.it,Closeness Centrality,Pairwise Connectivity,The Closeness Centrality is equally important than Pairwise Connectivity,equally important,,,,12/22/2021 17:39
+Utente,Categoria1,Categoria2,Domanda,Risposta,D. opzionale,R. opzionale,Note,Timestamp,
+m.capurrollado@alcampus.it,Degree Centrality,Closeness Centrality,The Degree Centrality is more important than Closeness Centrality,more important,,,,12/20/2021 16:21,
+m.capurrollado@alcampus.it,Degree Centrality,Closeness Centrality,The Degree Centrality is more important than Closeness Centrality,more important,,,,12/22/2021 14:37,
+m.capurrollado@alcampus.it,Eigen Centrality,Degree Centrality,The Eigen Centrality is more important than Degree Centrality,more important,,,,12/22/2021 14:37,
+m.capurrollado@alcampus.it,Pairwise Connectivity,Degree Centrality,The Pairwise Connectivity is much more important than Degree Centrality,much more important,,,,12/22/2021 14:37,
+m.capurrollado@alcampus.it,Pairwise Connectivity,Eigen Centrality,The Pairwise Connectivity is more important than Eigen Centrality,more important,,,,12/22/2021 14:37,
+m.capurrollado@alcampus.it,Pairwise Connectivity,Closeness Centrality,The Pairwise Connectivity is much more important than Closeness Centrality,much more important,,,,12/22/2021 14:37,
+carpyfra@hotmail.it,Eigen Centrality,Degree Centrality,The Eigen Centrality is more important than Degree Centrality,more important,,,,12/22/2021 17:38,
+carpyfra@hotmail.it,Eigen Centrality,Degree Centrality,The Eigen Centrality is much more important than Degree Centrality,much more important,,,,12/22/2021 17:39,
+carpyfra@hotmail.it,Eigen Centrality,Closeness Centrality,The Eigen Centrality is more important than Closeness Centrality,more important,,,,12/22/2021 17:39,
+carpyfra@hotmail.it,Closeness Centrality,Pairwise Connectivity,The Closeness Centrality is equally important than Pairwise Connectivity,equally important,,,,12/22/2021 17:39,
+me.contini@virgilio.it,Degree Centrality,Pairwise Connectivity,The Degree Centrality is less important than Pairwise Connectivity,less important,,,,1/2/2022 13:54,
+me.contini@virgilio.it,Degree Centrality,Closeness Centrality,The Degree Centrality is less important than Closeness Centrality,less important,,,,1/2/2022 13:55,
+me.contini@virgilio.it,Pairwise Connectivity,Eigen Centrality,The Pairwise Connectivity is more important than Eigen Centrality,more important,,,,1/2/2022 13:57,
+me.contini@virgilio.it,Degree Centrality,Eigen Centrality,The Degree Centrality is less important than Eigen Centrality,less important,,,,1/2/2022 13:57,
+me.contini@virgilio.it,Pairwise Connectivity,Closeness Centrality,The Pairwise Connectivity is more important than Closeness Centrality,more important,,,,1/2/2022 13:57,
+me.contini@virgilio.it,Degree Centrality,Pairwise Connectivity,The Degree Centrality is much less important than Pairwise Connectivity,much less important,,,,1/2/2022 13:58,
+me.contini@virgilio.it,Degree Centrality,Pairwise Connectivity,The Degree Centrality is much less important than Pairwise Connectivity,much less important,,,,1/2/2022 13:59,
+me.contini@virgilio.it,Eigen Centrality,Closeness Centrality,The Eigen Centrality is equally important than Closeness Centrality,equally important,,,,1/2/2022 13:59,
+paolo.ruggirello@alcampus.it,Eigen Centrality,Closeness Centrality,The Eigen Centrality is equally important than Closeness Centrality,equally important,,,,1/2/2022 21:08,
+paolo.ruggirello@alcampus.it,Pairwise Connectivity,Eigen Centrality,The Pairwise Connectivity is more important than Eigen Centrality,more important,,,,1/2/2022 21:09,
+paolo.ruggirello@alcampus.it,Eigen Centrality,Closeness Centrality,The Eigen Centrality is equally important than Closeness Centrality,equally important,,,,1/2/2022 21:13,
+paolo.ruggirello@alcampus.it,,,The is than,,,,,1/2/2022 21:15,
+paolo.ruggirello@alcampus.it,Pairwise Connectivity,Degree Centrality,The Pairwise Connectivity is more important than Degree Centrality,more important,,,,1/2/2022 21:15,
+paolo.ruggirello@alcampus.it,Degree Centrality,Closeness Centrality,The Degree Centrality is less important than Closeness Centrality,less important,,,,1/2/2022 21:15,
+paolo.ruggirello@alcampus.it,Eigen Centrality,Closeness Centrality,The Eigen Centrality is more important than Closeness Centrality,more important,,,,1/2/2022 21:15,
+paolo.ruggirello@alcampus.it,Degree Centrality,Closeness Centrality,The Degree Centrality is much less important than Closeness Centrality,much less important,,,,1/2/2022 21:15,
+paolo.ruggirello@alcampus.it,Degree Centrality,Closeness Centrality,The Degree Centrality is much less important than Closeness Centrality,much less important,,,,1/2/2022 21:16,
+paolo.ruggirello@alcampus.it,Closeness Centrality,Pairwise Connectivity,The Closeness Centrality is more important than Pairwise Connectivity,more important,,,,1/2/2022 21:16,
+paolo.ruggirello@alcampus.it,Eigen Centrality,Closeness Centrality,The Eigen Centrality is equally important than Closeness Centrality,equally important,,,,1/2/2022 21:16,
+paolo.ruggirello@alcampus.it,Eigen Centrality,Degree Centrality,The Eigen Centrality is much more important than Degree Centrality,much more important,,,,1/2/2022 21:16,
+paolo.ruggirello@alcampus.it,,,The is than,,,,,1/2/2022 21:16,
+francyvadi@gmail.com,Eigen Centrality,Degree Centrality,The Eigen Centrality is equally important than Degree Centrality,equally important,,,,1/2/2022 23:03,
+francyvadi@gmail.com,Pairwise Connectivity,Degree Centrality,The Pairwise Connectivity is less important than Degree Centrality,less important,,,,1/2/2022 23:04,
+francyvadi@gmail.com,Closeness Centrality,Degree Centrality,The Closeness Centrality is equally important than Degree Centrality,equally important,,,,1/2/2022 23:04,
+francyvadi@gmail.com,Eigen Centrality,Closeness Centrality,The Eigen Centrality is much more important than Closeness Centrality,much more important,,,,1/2/2022 23:04,
+francyvadi@gmail.com,Eigen Centrality,Pairwise Connectivity,The Eigen Centrality is more important than Pairwise Connectivity,more important,,,,1/2/2022 23:04,
+francyvadi@gmail.com,Pairwise Connectivity,Closeness Centrality,The Pairwise Connectivity is equally important than Closeness Centrality,equally important,,,,1/2/2022 23:04,
+cormas.ms@gmail.com,Pairwise Connectivity,Eigen Centrality,The Pairwise Connectivity is than Eigen Centrality,,,,,1/3/2022 13:16,
+cormas.ms@gmail.com,Eigen Centrality,Degree Centrality,The Eigen Centrality is more important than Degree Centrality,more important,,,,1/3/2022 13:17,
+cormas.ms@gmail.com,Pairwise Connectivity,Closeness Centrality,The Pairwise Connectivity is more important than Closeness Centrality,more important,,,,1/3/2022 13:18,
+cormas.ms@gmail.com,Degree Centrality,Closeness Centrality,The Degree Centrality is more important than Closeness Centrality,more important,,,,1/3/2022 13:18,
+cormas.ms@gmail.com,Pairwise Connectivity,Eigen Centrality,The Pairwise Connectivity is less important than Eigen Centrality,less important,,,,1/3/2022 13:18,
+cormas.ms@gmail.com,Pairwise Connectivity,Degree Centrality,The Pairwise Connectivity is equally important than Degree Centrality,equally important,,,,1/3/2022 13:19,
+cormas.ms@gmail.com,Eigen Centrality,Closeness Centrality,The Eigen Centrality is much more important than Closeness Centrality,much more important,,,,1/3/2022 13:19,
+cormas.ms@gmail.com,Pairwise Connectivity,Degree Centrality,The Pairwise Connectivity is equally important than Degree Centrality,equally important,,,,1/3/2022 13:19,
