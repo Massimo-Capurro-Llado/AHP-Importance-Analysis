@@ -1,5 +1,6 @@
 # Auxiliary files and project folders that should not be updated
 testdata/*
+Figures/*
 
 # Windows default autosave extension
 *.asv

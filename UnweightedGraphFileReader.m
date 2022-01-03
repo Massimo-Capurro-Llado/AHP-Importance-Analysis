@@ -14,6 +14,7 @@ function [A] = UnweightedGraphFileReader(file)
     ARCHI= [archi(1:2:end), archi(2:2:end)];
     nodes= max(max(ARCHI));
     A= zeros(nodes);
+    
     for i= 1:length(ARCHI)
         from= ARCHI(i,1);
         to= ARCHI(i,2);

@@ -9,6 +9,6 @@ function [definitive_importance] = DefinitiveNodeImportance(degree,D_Weight,eige
 ranking = degree.*D_Weight + eigen.*E_Weight + closeness.*C_Weight + pairwise.*P_Weight;
 
 % Normalize the ranking
-definitive_importance= ranking./max(ranking);
+definitive_importance= ranking./sum(ranking);
 
 end
