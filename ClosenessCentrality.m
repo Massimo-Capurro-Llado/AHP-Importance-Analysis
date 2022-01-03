@@ -4,6 +4,7 @@ function [closensess] = ClosenessCentrality(G)
     % Output: closeness -> A vector with the value for closeness centrality of each node of G
 
     D=distances(G);
+    D(find(D==inf))=length(D)/4;
     closeness=sum(D, 2);
     closeness= 1./closeness;
 
