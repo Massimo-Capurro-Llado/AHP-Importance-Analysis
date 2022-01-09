@@ -17,7 +17,7 @@ function [pairwise] = PairWiseConnectivity(A)
         A_temp(:,i)= 0;
         
         % Calculate PWC and nPWC
-        dist= graphallshortestpaths(sparse(A_temp));
+        dist= distances(graph(A_temp));
         dist(find(dist==inf))= 0;
         dist= (dist>0);
         PWC= sum(sum(dist));
